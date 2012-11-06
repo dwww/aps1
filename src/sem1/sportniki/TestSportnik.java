@@ -14,14 +14,7 @@ public class TestSportnik {
 	
 	public TestSportnik(){
 		makeTab(IME_PRIIMKI.length);
-		
-		UrejenSeznam s = new UrejenSeznam();
-		s.dodaj("b");
-		s.dodaj("a");
-		s.dodaj("a");
-		s.dodaj("a");
-		s.izpisiN();
-		//napolniTab();
+		napolniTab();
 	}
 	
 	public void makeTab(int velTab){
